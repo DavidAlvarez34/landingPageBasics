@@ -1,0 +1,26 @@
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2,298px);
+    margin-top: 20px;
+    column-gap: 100px;
+
+}
+.content-sesion{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+img{
+    width: 298px;
+    height: 605px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+

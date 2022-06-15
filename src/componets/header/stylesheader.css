@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+    color: #302119 ;
+}
+ul{
+    list-style: none;
+}
+.nav-main{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #f8ecd9;
+}
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+}
+.nav-main ul .align-sign{
+   
+    padding-left: 550px;
+}
+.align-sign a{
+    background-color: #3456f3;
+    padding:10px 10px;
+    color: #FFF;
+    border-radius: 5px;
+}
